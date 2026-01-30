@@ -63,3 +63,32 @@ cant_elems = 0
 for n in numbers:
     cant_elems += 1
 print(cont / cant_elems)
+
+# EJERCICIOS
+
+# Contador simple
+numero_ingresado = int(input("Ingrese un número: "))
+total = 0
+cant_ingresados = 0 
+while numero_ingresado != 0:
+    total += numero_ingresado
+    cant_ingresados += 1
+    numero_ingresado = int(input("Ingrese un número: "))
+print(f"La soma total es: {total} y la cantidad de números es: {cant_ingresados}")
+
+# Registro de notas
+nota = int(input("Ingrese una nota: "))
+notas = []
+while nota != -1:
+    notas.append(nota)
+    nota = int(input("Ingrese una nota: "))
+
+for n in notas:
+    print(n)
+
+total = 0
+for n in notas:
+    total += n
+print(f"El promedio de notas es: {total / len(notas)}")
+print(f"La nota mas alta es: {min(notas)}")
+print(f"La nota mas baja es: {max(notas)}")
