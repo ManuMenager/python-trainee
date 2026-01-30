@@ -43,3 +43,48 @@ for _ in range(5):
     lenguajes.add(lenguaje)
 
 print(f"Cantidad de lenguajes distintos: {len(lenguajes)}")
+
+# EJERCICIOS
+
+# Sistema Simple de Alumnos
+alumnos = {}
+
+alumno1 = {
+    "legajo": 1,
+    "nombre": "Emanuel",
+    "notas": [9,7,9]
+}
+
+alumno2 = {
+    "legajo": 2,
+    "nombre": "Pepito",
+    "notas": [9,8]
+}
+
+def agregar_alumno(alumno):
+    alumnos[alumno["legajo"]] = alumno
+
+agregar_alumno(alumno1)
+agregar_alumno(alumno2)
+
+print(f"Alumnos: {alumnos}")
+
+def agregar_nota_alumno(nota, alumno):
+    alumnos[alumno["legajo"]]["notas"].append(nota)
+
+agregar_nota_alumno(7, alumno2)
+
+print("Notas de Pepito: ", alumnos[2]["notas"])
+
+def promedio_alumnos(alumnos):
+    promedios = []
+    for alumno in alumnos.values():
+        promedios.append(calcular_promedio(alumno["notas"]))
+    return promedios
+
+print(promedio_alumnos(alumnos))
+
+def promedio_general(alumnos):
+    return calcular_promedio(promedio_alumnos(alumnos))
+
+print("Promedio general:", promedio_general(alumnos))
