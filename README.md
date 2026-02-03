@@ -21,3 +21,8 @@ Dia 3: Funciones y Estructuras de Datos.
     Ejercicios.
 - Sistema Simple de Alumnos: Utilicé un diccionario para guardar a los alumnos (diccionario de diccionario), debido a que queria que los alumnos se puedan buscar con una clave para acceder facilmente a sus datos.
     Problema encontrado y solucionado: En un primer momento quería iterar en la funcion 'promedio_alumnos()' sobre directamente los alumnos pero no me habia dado cuenta que esto iba a iterar sobre las claves del diccionario 'alumnos' por lo que me dió un error y me di cuenta que era necesario iterar sobre los valores de dicho diccionario(sobre los diccionarios 'alumno').
+
+Dia 4: Organización de Archivos y Persistencia de Datos.
+- Organización de funciones por archivo(Flujo del programa, calculos, etc)
+- Persistencia de datos utilizando un TXT para poder cerrar el programa y que los datos se mantengan.
+
