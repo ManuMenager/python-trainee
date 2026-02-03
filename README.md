@@ -20,9 +20,16 @@ Dia 3: Funciones y Estructuras de Datos.
 
     Ejercicios.
 - Sistema Simple de Alumnos: Utilicé un diccionario para guardar a los alumnos (diccionario de diccionario), debido a que queria que los alumnos se puedan buscar con una clave para acceder facilmente a sus datos.
-    Problema encontrado y solucionado: En un primer momento quería iterar en la funcion 'promedio_alumnos()' sobre directamente los alumnos pero no me habia dado cuenta que esto iba a iterar sobre las claves del diccionario 'alumnos' por lo que me dió un error y me di cuenta que era necesario iterar sobre los valores de dicho diccionario(sobre los diccionarios 'alumno').
+    Desafios: 
+    - En un primer momento quería iterar en la funcion 'promedio_alumnos()' sobre directamente los alumnos pero no me habia dado cuenta que esto iba a iterar sobre las claves del diccionario 'alumnos' por lo que me dió un error y me di cuenta que era necesario iterar sobre los valores de dicho diccionario(sobre los diccionarios 'alumno').
 
 Dia 4: Organización de Archivos y Persistencia de Datos.
 - Organización de funciones por archivo(Flujo del programa, calculos, etc)
 - Persistencia de datos utilizando un TXT para poder cerrar el programa y que los datos se mantengan.
+- Persistencia de datos utlizando JSON (más legible, automatico, robusto y sin parsing que txt).
 
+    Ejercicios.
+- Sistema Simple de Alumnos 2: Mejoré el Sistema del dia 3, utilizando primero archivos txt para guardar los datos y organizando las funciones en archivos según su propósito. Luego utilicé JSON en vez de txt ya que es mucho mejor pero para aprender TXT era interesante.
+    Desafios:
+    - Nunca habia hecho persistencia de datos con archivos txt por lo que realizar el parsing fue un desafio.
+    - En un principio creí que lo mejor era cargar y guardar los datos almacenados dentro de las funciones de los alumnos. Pero luego leí que lo mejor era hacerlo en directamente desde el main, ya que las funciones de negocio no deben saber donde se guardan los datos, por lo que es mejor separar las responsabilidades del programa en capas: persistencia, lógica de negocio, control(main).

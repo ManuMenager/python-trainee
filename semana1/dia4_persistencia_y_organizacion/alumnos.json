@@ -1,0 +1,20 @@
+{
+    "1": {
+        "legajo": 1,
+        "nombre": "Emanuel",
+        "notas": [
+            9,
+            7,
+            9
+        ]
+    },
+    "2": {
+        "legajo": 2,
+        "nombre": "Pepito",
+        "notas": [
+            9,
+            8,
+            7
+        ]
+    }
+}

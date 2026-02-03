@@ -2,6 +2,7 @@
 import calculos
 import alumnos
 import persistenciaTXT as pTXT
+import persistenciaJSON as pJSON
 
 legajos_alumnos = pTXT.cargar_desde_txt()
 
