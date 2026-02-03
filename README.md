@@ -1,4 +1,14 @@
-Dia 1: Fundamentos de Python
+Semana 1: Fundamentos de Python
+- Variables, condicionales
+- Bucles
+- Estructuras de Datos (listas, diccionarios, sets)
+- Funciones
+- Módulos
+- Archivos
+- Manejo de Errores
+- Persistencia de Datos(txt y JSON)
+
+Dia 1: Repaso de tipos, errores, condicionales, etc.
 - Repaso de tipos de datos, input, print, manejo de errores y condicionales.
 - Recordé que el uso de try/except es muy importante cuando es necesario castear un input.
 
