@@ -68,3 +68,6 @@ Uno de los principales problemas que resuelve es el "código espagueti", la falt
 Dia 2: Herencia, Composición y Errores.
 - Repaso de Herencia y Composicion / 'Es un' y 'Tiene un'. Se evita mucho código repetido.
 - Manejo de errores donde la clases validan los errores por dentro (clase) y el programa lo maneja desde fuera (main)
+
+    Ejercicios.
+- Sistema de Cursos: Utilicé Herencia en las personas con los alumnos, composición entre el curso y los alumnos. Validación de errores en las clases y manejo de errores en el main.
