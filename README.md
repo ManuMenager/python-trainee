@@ -50,7 +50,7 @@ Semana 2: Programación Orientada a Objetos
 - __init_ (Constructor)
 - Métodos
 - Encapsulamiento
-- Herencia
+- Herencia y Composición
 - Try/Except aplicado a clases
 - Archivos con POO
 
@@ -64,3 +64,7 @@ Uno de los principales problemas que resuelve es el "código espagueti", la falt
     
     Ejercicios.
 - Sistema Simple POO: Una clase Alumno, la cual se pueda instanciar a partir de un legajo y nombre, que permite agregar notas a dichos alumnos y consultar su promedio. Como parte del ejercicio el encapsulamiento de la clase Alumno decide si agregar o no la nota dada, a partir de si dicha nota es válida o no.
+
+Dia 2: Herencia, Composición y Errores.
+- Repaso de Herencia y Composicion / 'Es un' y 'Tiene un'. Se evita mucho código repetido.
+- Manejo de errores donde la clases validan los errores por dentro (clase) y el programa lo maneja desde fuera (main)
