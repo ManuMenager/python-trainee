@@ -43,3 +43,24 @@ Dia 4: Organización de Archivos y Persistencia de Datos.
     Desafios:
     - Nunca habia hecho persistencia de datos con archivos txt por lo que realizar el parsing fue un desafio.
     - En un principio creí que lo mejor era cargar y guardar los datos almacenados dentro de las funciones de los alumnos. Pero luego leí que lo mejor era hacerlo en directamente desde el main, ya que las funciones de negocio no deben saber donde se guardan los datos, por lo que es mejor separar las responsabilidades del programa en capas: persistencia, lógica de negocio, control(main).
+
+
+Semana 2: Programación Orientada a Objetos
+- Clases y Objetos
+- __init_ (Constructor)
+- Métodos
+- Encapsulamiento
+- Herencia
+- Try/Except aplicado a clases
+- Archivos con POO
+
+Dia 1: Clases, Objetos y Encapsulamiento.
+- ¿Qué es una clase?
+    Es un molde/esqueleto que define la estructura de como serán los objetos, es decir que métodos, atributos tendrán y el comportamiento.
+- ¿Qué es un Objeto?
+    Es una instancia concreta de una clase, con valores especificos de dicha clase.
+- ¿Qué problema resuelva la POO?
+Uno de los principales problemas que resuelve es el "código espagueti", la falta de reutilización y la dificultad para modelar el mundo real. Se agrupan los datos y las funciones que los manipulan dentro una misma "capsula" (Objeto). A parece la Herencia para evitar el código repetido y que muchas clases hereden comportamiento por lo que no es necesario volver a escribir código utilizado por muchas clases. Por último la POO permite programar pensando en "cosas"/"Objetos" que interactúan entre sí, lo cual es mucho más intuituvo y sencillo de diseñar.
+    
+    Ejercicios.
+- Sistema Simple POO: Una clase Alumno, la cual se pueda instanciar a partir de un legajo y nombre, que permite agregar notas a dichos alumnos y consultar su promedio. Como parte del ejercicio el encapsulamiento de la clase Alumno decide si agregar o no la nota dada, a partir de si dicha nota es válida o no.
